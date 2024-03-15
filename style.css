@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+span, a{
+    display: inline-block;
+}
+.big{
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+.box{
+    border-radius: 50%;
+    background-image: linear-gradient(white, black 15%);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 400px;
+    animation: pastga 1s linear alternate infinite;
+}
+@keyframes pastga{
+    100%{
+        transform: translateY(380px);
+    }
+}
+.soya{
+    height: 7px;
+    width: 90px;
+    background-image: linear-gradient(white, black);
+    margin: 0 50px;
+    border-radius: 50%;
+    animation: yu 1s linear alternate infinite;
+}
+@keyframes yu{
+    100%{
+        transform:scale(2);
+    }
+}
